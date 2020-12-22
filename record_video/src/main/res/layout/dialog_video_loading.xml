@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/video_shape_loading"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/loadingImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/video_icon_loading" />
+
+        <TextView
+            android:id="@+id/tv_loadingmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#333"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:text="加载中..."
+            />
+    </LinearLayout>
+
+</FrameLayout>

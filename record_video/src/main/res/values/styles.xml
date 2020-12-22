@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="VideoDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">#00ffffff</item>
+        <item name="android:windowBackground">@drawable/video_shape_loading</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

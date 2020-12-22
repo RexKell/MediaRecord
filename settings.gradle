@@ -1,0 +1,4 @@
+include ':record_video'
+include ':record_acc'
+include ':app'
+rootProject.name = "AuidoVideoDemo"
